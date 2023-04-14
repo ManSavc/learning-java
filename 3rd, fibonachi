@@ -1,0 +1,17 @@
+//The program calculates the Fibonchi number entered
+import java.util.Scanner;
+
+public class FibonaciNum {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("enter the number of Fibonachi");
+        int i = sc.nextInt();
+        System.out.println(i);
+        int result = 0;
+        while (i > 0) {
+            result = result + i;
+            i--;
+        }
+        System.out.println("ressult -->" + result);
+    }
+}
